@@ -31,10 +31,10 @@ library(DESeq2)
 setwd("/path/to/files")
 experimentName=c("Name")
 mainFactor="Factor"
-myLevels=c("Level1",
-           "Level2",
-           "Level3",
-           "Level4")
+myLevels=c("No PMA Unkilled",
+           "No PMA Killed",
+           "PMA Unkilled",
+           "PMA Killed")
 barcodePosition=7
 regionPosition=12
 #######################################################
